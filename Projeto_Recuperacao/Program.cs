@@ -3,10 +3,10 @@
 using Projeto_Recuperacao.Classes;
 
 Console.WriteLine(@"
-============================
-|  Bem vindo ao sistema    |
-|     de cadastro          |
-============================
+=========================
+  |Bem vindo ao sistema|
+|de cadastro de empresas|
+=========================
 ");
 
 // menu de opcoes
@@ -19,15 +19,15 @@ string? opcao;
 do
 {
     Console.WriteLine(@"
-    ================================
-    |    Escolha uma das opões     |
-    |===============================      
-    |   1 - Cadastrar PJ           |
-    |   2 - Listar PJ              |
-    |                              |
-    |   0 - Sair                   |
-    |                              |
-    ================================
+================================
+| Escolha uma das opções abaixo|
+|===============================      
+|   1 - Cadastrar PJ           |
+|   2 - Listar PJ              |
+|                              |
+|   0 - Sair                   |
+|                              |
+================================
     ");
 
     opcao = Console.ReadLine();
